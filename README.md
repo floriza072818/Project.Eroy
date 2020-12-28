@@ -26,30 +26,30 @@ Store a start data, an end data, and the text to the contact.
 
  
   # Query 1
-  I. This query is shows you on how to add a table.
-  II. It's important because it's easy to add records from a table.
-  III. # INSERT      INSERT INTO `customer`(`cid`, `Name`, `phoneno`, `address`, `waiterid`) 
-                     VALUES (' 4 ' , ' Yuri Lee ' , ' 5678597 ' , ' Brisbane ' , ' 2 ' );
+  I. This query is shows you on how to add a table.                                                                                               
+  II. It's important because it's easy to add records from a table.                                                                                              
+  III. # INSERT      INSERT INTO `customer`(`cid`, `Name`, `phoneno`, `address`, `waiterid`)                                                                             
+                     VALUES (' 4 ' , ' Yuri Lee ' , ' 5678597 ' , ' Brisbane ' , ' 2 ' );                                                                          
   ![image(https://user-images.githubusercontent.com/73158407/103194735-c65d4a00-489d-11eb-80b9-493ec167f19c.png)
 
- # Query 2
- I. This query is shows you on how to remove rows from table.                                                       
- II. It's important because it's easy to remove records from a table.                                                     
- III. # DELETE     delete from 'order' where oid='1'
+ # Query 2   
+ I. This query is shows you on how to remove rows from table.                                                                                                           
+ II. It's important because it's easy to remove records from a table.                                                                                                
+ III. # DELETE     delete from 'order' where oid='1'                                                            
   ![image(https://user-images.githubusercontent.com/73158407/103192642-a6765800-4896-11eb-9aa0-5835a39d7b05.png)
   
   
   # Query 3                              
- I. This query is shows you on how to sort the result-set in ascending or descending order.                                           
- II. It's important because it's easy to sort using ascending or descending order.                                       
- III. # ORDER BY  SELECT name FROM 'meal' ORDER BY chefid ASC                          
+ I. This query is shows you on how to sort the result-set in ascending or descending order.                                                                                
+ II. It's important because it's easy to sort using ascending or descending order.                                                                            
+ III. # ORDER BY  SELECT name FROM 'meal' ORDER BY chefid ASC                                                                         
      ![image(https://user-images.githubusercontent.com/73158407/103196167-e4787980-48a0-11eb-95b8-7d0f5d36a2fa.png)
      
      
   # Query 4
-  I. This query is shows you on how to selects all the customer from the country "Brisbane", in the "Customer" table.
-  II. It's important because it's easy to filter the records and fetching only the necessary records.
-  III. # WHERE     SELECT * FROM Customer WHERE address='Gold Coast';
+  I. This query is shows you on how to selects all the customer from the country "Brisbane", in the "Customer" table.                            
+  II. It's important because it's easy to filter the records and fetching only the necessary records.                                       
+  III. # WHERE     SELECT * FROM Customer WHERE address='Gold Coast';                                                                         
      ![image(https://user-images.githubusercontent.com/73158407/103198876-a9794480-48a6-11eb-88a2-c50b620d7196.png)
 
 
