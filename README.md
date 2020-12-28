@@ -85,7 +85,7 @@ Store a start data, an end data, and the text to the contact.
   I. This query is shows you on how to returns all records from the right table (Customer), even if there are no matches in the left table (orders).          
   II. It's important because it's help to  return all Customer, and any orders they might have placed.                                          
   III.                                                                                                                        
-  SELECT orders.oid, customer.Name, customer.address                                                                                                          
+  # SELECT orders.oid, customer.Name, customer.address                                                                                                          
   # FROM orders                                                                                                                                                     
   # RIGHT JOIN customer ON orders.cid = customer.cid                                                                                                        
   # ORDER BY orders.oid;                                                                                                                                            
@@ -96,7 +96,7 @@ Store a start data, an end data, and the text to the contact.
   I. This query is shows you on how to get 3 Highest salaries records from chef table.                                                    
   II.It's important because it's help to rank the highest salaries.                                                                         
   III.
-  ![(# select distinct salary from chef a where 3 >= (select count(distinct salary) from chef b where a.salary <= b.salary) order by a.salary desc)
+  # select distinct salary from chef a where 3 >= (select count(distinct salary) from chef b where a.salary <= b.salary) order by a.salary desc
   ![image(https://user-images.githubusercontent.com/73158407/103211915-b4dc6800-48c6-11eb-9fe5-6a25fc708180.png)
 
 # Query 9
@@ -111,9 +111,30 @@ Store a start data, an end data, and the text to the contact.
  I.This query is shows you on how to find the smallest price from meal.                                                                         
  II.It's important because it's help to finds the price of the cheapest meal.                                                              
  III.
-  # SELECT MIN(Price) AS SmallestPrice FROM meal                                                                  
+ # SELECT MIN(Price) AS SmallestPrice FROM meal                                                                  
   ![image(https://user-images.githubusercontent.com/73158407/103213915-56b28380-48cc-11eb-909f-b0728580ef84.png)
-
+  
+  
+ # Query 11
+ I.This query is shows you on how to find average price from meal.                                                                                                         
+ II.It's important because it's help to finds the average price of all meal.                                                                                       
+ III.
+  # SELECT AVG(Price) FROM meal                              
+   ![image(https://user-images.githubusercontent.com/73158407/103214365-71392c80-48cd-11eb-8089-bb0b708b663b.png)
       
-     
+ 
+  # Query 12
+  I. This query is shows you on how to find the highest salary from waiter.                                                                                                         II. It's important because it's help to finds the  highest salary from waiter.                                                                                                
+  III.
+  # SELECT MAX(salary) AS HighestSalary FROM waiter
+  ![image(https://user-images.githubusercontent.com/73158407/103215503-c460ae80-48d0-11eb-8b36-ed89460070d5.png)
+
+
+
+
+
+
+
+
+
 
