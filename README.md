@@ -72,11 +72,19 @@ Store a start data, an end data, and the text to the contact.
  
  
  # Query 6
-  I.                                                    
-  II. 
-  III. 
- 
- 
-     
+  I. This query is shows you on how to combine rows from different tables if the join condition is true.                                                                         
+  II. It's important because it's easy to combine all rows from differebt table.                                                    
+  III. INNER JOIN                                                                                                  
+  # SELECT orders.oid, customer.Name                                                                                           
+  # FROM orders                                                                                                                              
+  # INNER JOIN customer ON orders.cid = customer.cid;                                                                                    
+  ![image(https://user-images.githubusercontent.com/73158407/103203931-5bb70900-48b3-11eb-828f-8a7c8840da07.png)
+
+
+ # Query 7
+  I.
+  II.
+  III.
+      
      
 
