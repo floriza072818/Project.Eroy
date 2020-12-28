@@ -24,6 +24,15 @@ Store a start data, an end data, and the text to the contact.
 
 ![image(https://user-images.githubusercontent.com/73158407/103190955-42e92c00-4890-11eb-9d9c-214397ee192f.png)
 
+  # Query 1
+  
+  # DELETE
+ # delete from 'order' where oid='1'
+ # input
+ ![image](https://user-images.githubusercontent.com/73158407/103192618-8e9ed400-4896-11eb-9196-6b5fc9c8d184.png)
+![image](https://user-images.githubusercontent.com/73158407/103192637-a1b1a400-4896-11eb-871e-fb72b027d314.png)
+# output
+![image](https://user-images.githubusercontent.com/73158407/103192642-a6765800-4896-11eb-9aa0-5835a39d7b05.png)
 
 
 
