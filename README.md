@@ -108,12 +108,11 @@ Store a start data, an end data, and the text to the contact.
   
   
  # Query 10
- I.
- II.
+ I.This query is shows you on how to find the smallest price from meal.                                                                         
+ II.It's important because it's help to finds the price of the cheapest meal.                                                              
  III.
-  
-  
-  
+  # SELECT MIN(Price) AS SmallestPrice FROM meal                                                                  
+  ![image](https://user-images.githubusercontent.com/73158407/103213915-56b28380-48cc-11eb-909f-b0728580ef84.png)
 
       
      
