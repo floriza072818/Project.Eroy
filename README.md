@@ -33,16 +33,16 @@ Store a start data, an end data, and the text to the contact.
   ![image(https://user-images.githubusercontent.com/73158407/103194735-c65d4a00-489d-11eb-80b9-493ec167f19c.png)
 
  # Query 2
- I. This query is shows you on how to remove rows from table.
- II. It's important because it's easy to remove records from a table.
+ I. This query is shows you on how to remove rows from table.                                                       
+ II. It's important because it's easy to remove records from a table.                                                     
  III. # DELETE     delete from 'order' where oid='1'
   ![image(https://user-images.githubusercontent.com/73158407/103192642-a6765800-4896-11eb-9aa0-5835a39d7b05.png)
   
   
-  # Query 3
-  I. This query is shows you on how to sort the result-set in ascending or descending order.
-  II. It's important because it's easy to sort using ascending or descending order.
-  III. # ORDER BY  SELECT name FROM 'meal' ORDER BY chefid ASC
+  # Query 3                              
+ I. This query is shows you on how to sort the result-set in ascending or descending order.                                           
+ II. It's important because it's easy to sort using ascending or descending order.                                       
+ III. # ORDER BY  SELECT name FROM 'meal' ORDER BY chefid ASC                          
      ![image(https://user-images.githubusercontent.com/73158407/103196167-e4787980-48a0-11eb-95b8-7d0f5d36a2fa.png)
      
      
