@@ -96,7 +96,7 @@ Store a start data, an end data, and the text to the contact.
   I. This query is shows you on how to get 3 Highest salaries records from chef table.                                                    
   II.It's important because it's help to rank the highest salaries.                                                                         
   III.
-  # select distinct salary from chef a where 3 >= (select count(distinct salary) from chef b where a.salary <= b.salary) order by a.salary desc
+  ![(# select distinct salary from chef a where 3 >= (select count(distinct salary) from chef b where a.salary <= b.salary) order by a.salary desc)
   ![image(https://user-images.githubusercontent.com/73158407/103211915-b4dc6800-48c6-11eb-9fe5-6a25fc708180.png)
 
 # Query 9
@@ -112,7 +112,7 @@ Store a start data, an end data, and the text to the contact.
  II.It's important because it's help to finds the price of the cheapest meal.                                                              
  III.
   # SELECT MIN(Price) AS SmallestPrice FROM meal                                                                  
-  ![image](https://user-images.githubusercontent.com/73158407/103213915-56b28380-48cc-11eb-909f-b0728580ef84.png)
+  ![image(https://user-images.githubusercontent.com/73158407/103213915-56b28380-48cc-11eb-909f-b0728580ef84.png)
 
       
      
