@@ -63,12 +63,20 @@ Store a start data, an end data, and the text to the contact.
   II. It's important because LEFT JOIN keyword returns all records from the left table (Customers),even if there are no matches in the 
   right table (Orders).                      
   III. LEFT JOIN    
-  ![# (SELECT Customer.Name, orders.oid                                                                            
+ # (SELECT Customer.Name, orders.oid                                                                            
   # FROM Customer                                                                                                       
   # LEFT JOIN orders                                                                                                  
   # ON Customer.cid=orders.cid                                                                                            
   # ORDER BY Customer.Name;                                                                                             
- imagehttps://user-images.githubusercontent.com/73158407/103202604-16450c80-48b0-11eb-8eae-6e45a3ac9cd1.png)
+ ![image(https://user-images.githubusercontent.com/73158407/103202604-16450c80-48b0-11eb-8eae-6e45a3ac9cd1.png)
+ 
+ 
+ # Query 6
+  I.                                                    
+  II. 
+  III. 
+ 
+ 
      
      
 
