@@ -130,6 +130,69 @@ Store a start data, an end data, and the text to the contact.
   ![image(https://user-images.githubusercontent.com/73158407/103215503-c460ae80-48d0-11eb-8b36-ed89460070d5.png)
 
 
+ # Query 13
+I.This query is shows you on how to find lists the number of customers in each address.                                   
+II. It's important because it's help identify the number of customers in each address.                               
+III.                                
+ SELECT COUNT(cid), address FROM customer GROUP BY address                                                  
+![image(https://user-images.githubusercontent.com/73158407/103216109-7482e700-48d2-11eb-8252-81c39cece469.png)
+
+
+ # Query 14
+ I.
+ II.
+ III.
+
+
+ # Query 15
+ I.
+ II.
+ III.
+
+
+ # Query 16
+ I.
+ II.
+ III.
+ 
+ 
+  # Query 17
+ I.
+ II.
+ III.
+ 
+ 
+  # Query 18
+ I.
+ II.
+ III.
+ 
+  # Query 19
+ I.
+ II.
+ III.
+ 
+  # Query 20
+ I.
+ II.
+ III.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
