@@ -82,9 +82,28 @@ Store a start data, an end data, and the text to the contact.
 
 
  # Query 7
+  I. This query is shows you on how to returns all records from the right table (Customer), even if there are no matches in the left table (orders).          
+  II. It's important because it's easy to  return all Customer, and any orders they might have placed.                                          
+  III. RIGHT JOIN                                                                                                                       
+  SELECT orders.oid, customer.Name, customer.address                                                                                                          
+  # FROM orders                                                                                                                                                     
+  # RIGHT JOIN customer ON orders.cid = customer.cid                                                                                                        
+  # ORDER BY orders.oid;                                                                                                                                            
+  ![image(https://user-images.githubusercontent.com/73158407/103204945-aafe3900-48b5-11eb-9627-fde6127d5a43.png)
+  
+
+# Query 8
   I.
   II.
   III.
+
+  
+  
+  
+  
+  
+  
+
       
      
 
