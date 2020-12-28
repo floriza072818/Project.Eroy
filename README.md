@@ -26,8 +26,8 @@ Store a start data, an end data, and the text to the contact.
 
   # Query 1
   
-  # DELETE
- # delete from 'order' where oid='1'
+  [(# DELETE)
+ [( # delete from 'order' where oid='1')
 # output
 ![image(https://user-images.githubusercontent.com/73158407/103192642-a6765800-4896-11eb-9aa0-5835a39d7b05.png)
 
