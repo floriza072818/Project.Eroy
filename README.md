@@ -58,7 +58,7 @@ Store a start data, an end data, and the text to the contact.
   I. This query is shows you on how to will select all customers, and any orders they might have.                                                     
   II. It's important because LEFT JOIN keyword returns all records from the left table (Customers),even if there are no matches in the 
   right table (Orders).                      
-  III.LEFT JOIN      SELECT Customer.Name, orders.oid                                                                            
+  III. # LEFT JOIN      SELECT Customer.Name, orders.oid                                                                            
                      FROM Customer                                                                                                       
                      LEFT JOIN orders                                                                                                  
                      ON Customer.cid=orders.cid                                                                                            
