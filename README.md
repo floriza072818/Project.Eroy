@@ -51,10 +51,19 @@ Store a start data, an end data, and the text to the contact.
   II. It's important because it's easy to filter the records and fetching only the necessary records.                                       
   III. # WHERE     SELECT * FROM Customer WHERE address='Gold Coast';                                                                         
      ![image(https://user-images.githubusercontent.com/73158407/103198876-a9794480-48a6-11eb-88a2-c50b620d7196.png)
+     
+     
 
-
-
-  
+# Query 5
+  I. This query is shows you on how to will select all customers, and any orders they might have.                                                     
+  II. It's important because LEFT JOIN keyword returns all records from the left table (Customers),even if there are no matches in the 
+  right table (Orders).                      
+  III.LEFT JOIN      SELECT Customer.Name, orders.oid                                                                            
+                     FROM Customer                                                                                                       
+                     LEFT JOIN orders                                                                                                  
+                     ON Customer.cid=orders.cid                                                                                            
+                     ORDER BY Customer.Name;                                                                                             
+ ![image(https://user-images.githubusercontent.com/73158407/103202604-16450c80-48b0-11eb-8eae-6e45a3ac9cd1.png)
      
      
 
