@@ -9,7 +9,8 @@ The Restaurant Management System  helps the restaurant manager to manage the res
 
 # ERD (Entity Relationship Diagram)
 
-![yasi(https://user-images.githubusercontent.com/73158407/103190625-0537d380-488f-11eb-8fff-bb6dad1a7523.png)
+![image(https://user-images.githubusercontent.com/73158407/103190738-7b3c3a80-488f-11eb-9fb4-48d198ddf5b3.png)
+
 
 # Where did you get the database?
 
