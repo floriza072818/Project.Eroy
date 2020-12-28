@@ -16,5 +16,15 @@ The Restaurant Management System  helps the restaurant manager to manage the res
 
 https://www.youtube.com/watch?v=YhkwUAVMrzg
 
+# Table Description
+Chefs are identified by name, chefid, salary, hire date. Restaurant also identified by name, address, phone number. Restaurant has waiter identified by waiter id, name, salary, hire date. Waiter serves food to customer. Customer also identified by customer id, name, phone number. Customer gives orders by waiter. Orders identified by cid, oid, mid, quantity, status, date.
+Store a start data, an end data, and the text to the contact.
+
+# Database Dependency Diagram (Image)
+
+![dependency(https://user-images.githubusercontent.com/73158407/103190880-05849e80-4890-11eb-8950-09aebe88d513.png)
+
+
+
 
 
