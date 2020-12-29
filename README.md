@@ -169,7 +169,7 @@ III.SELECT COUNT(cid), address FROM customer GROUP BY address
  
  
   # Query 19
- I.
+ I. 
  II.
  III.
  
