@@ -169,16 +169,19 @@ III.SELECT COUNT(cid), address FROM customer GROUP BY address
  
  
   # Query 19
- I. 
- II.
- III.
- 
+ I. This query is shows you on how to find all chef employee whose salaries are equal to the average salary of their chef table.
+ II.It's important because it's help to identify the salaries whose are equal of their average.
+ III.SELECT name, salary FROM chef WHERE salary = ANY ( SELECT AVG(salary) FROM chef GROUP BY chefid) ORDER BY name, salary
+ ![image(https://user-images.githubusercontent.com/73158407/103258931-6d042200-4954-11eb-940c-b89b2e5cf8fb.png)
  
  
   # Query 20
- I.
- II.
- III.
+ I.This query is shows you on how to find the customer whose last name is 
+ II.It's important because it's help to identify the customer you want to find from the data table.
+ III.SELECT cid, Name, phoneno, address, waiterid FROM customer WHERE name = 'John Ford'
+ ![image(https://user-images.githubusercontent.com/73158407/103259532-092f2880-4957-11eb-99e9-53310b568f4b.png)
+
+
 
 
 
