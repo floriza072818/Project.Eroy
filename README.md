@@ -124,8 +124,7 @@ Store a start data, an end data, and the text to the contact.
       
  
   # Query 12
-  I. This query is shows you on how to find the highest salary from waiter.                                                                                                         II. It's important because it's help to finds the  highest salary from waiter.                                                                                                
-  III.
+  I. This query is shows you on how to find the highest salary from waiter.                                                                                                         II. It's important because it's help to finds the  highest salary from waiter.                                                                                                   III.
    SELECT MAX(salary) AS HighestSalary FROM waiter
   ![image(https://user-images.githubusercontent.com/73158407/103215503-c460ae80-48d0-11eb-8b36-ed89460070d5.png)
 
@@ -164,16 +163,28 @@ III.
  
  
   # Query 17
- I.
- II.
+ I.This query is shows you on how to use the SQL EXISTS operator to test for the existence of rows returned by a subquery.         
+ II.It's important because it's help to query returns all rows in the  customer table.                                        
  III.
- 
+ SELECT cid, Name FROM customer WHERE EXISTS( SELECT NULL) ORDER BY name                                               
+ ![image(https://user-images.githubusercontent.com/73158407/103257943-71c6d700-4950-11eb-95ce-cb90ed03cea5.png)
  
  
   # Query 18
- I.
- II.
+ I.This query is shows you on how to remove duplicate salary from waiter table                                 
+ II.It's important because it's help to remove duplicates salary data.                                      
  III.
+  SELECT DISTINCT salary FROM waiter ORDER BY salary DESC                                                           
+  ![image(https://user-images.githubusercontent.com/73158407/103258170-51e3e300-4951-11eb-885a-0d73222a4d5c.png)
+   
+   As you see we have duplicate salary data e.g., 400 because two or more employees have the same salary.                   
+   To remove the duplicate, you add the DISTINCT operator to the SELECT clause as follows:
+                             
+   
+   
+ ![image(https://user-images.githubusercontent.com/73158407/103258232-9b343280-4951-11eb-90c0-776617372493.png)
+   
+   Now all duplicates are removed from the result set.                            
  
  
  
