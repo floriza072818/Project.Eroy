@@ -124,11 +124,13 @@ Store a start data, an end data, and the text to the contact.
       
  
   # Query 12
-  I. This query is shows you on how to find the highest salary from waiter.                                                                                                         II. It's important because it's help to finds the  highest salary from waiter.                                                                                                   III.
-   SELECT MAX(salary) AS HighestSalary FROM waiter
-  ![image(https://user-images.githubusercontent.com/73158407/103215503-c460ae80-48d0-11eb-8b36-ed89460070d5.png)
-
-
+ I. This query is shows you on how to find the highest salary from waiter.                                                       
+ II.It's important because it's help to finds the  highest salary from waiter.                                                                         
+ III.
+  SELECT MAX(salary) AS HighestSalary FROM waiter                                                                     
+    ![image(https://user-images.githubusercontent.com/73158407/103215503-c460ae80-48d0-11eb-8b36-ed89460070d5.png)
+  
+  
  # Query 13
 I.This query is shows you on how to find lists the number of customers in each address.                                   
 II. It's important because it's help to identify the number of customers in each address.                               
