@@ -132,28 +132,35 @@ Store a start data, an end data, and the text to the contact.
 
  # Query 13
 I.This query is shows you on how to find lists the number of customers in each address.                                   
-II. It's important because it's help identify the number of customers in each address.                               
+II. It's important because it's help to identify the number of customers in each address.                               
 III.                                
  SELECT COUNT(cid), address FROM customer GROUP BY address                                                  
 ![image(https://user-images.githubusercontent.com/73158407/103216109-7482e700-48d2-11eb-8252-81c39cece469.png)
 
 
  # Query 14
- I.
- II.
+ I.This query is shows you on how to select all customers that are located in (Melbourne, Perth, Gold Coast).                                                      
+ II.It's important because it's help to identify all customers in there places that mention from table.                                                   
  III.
-
-
+ SELECT * FROM customer WHERE address IN ('Melbourne', 'Perth','Gold Coast' )                                             
+ ![image(https://user-images.githubusercontent.com/73158407/103251274-69ad6e00-4935-11eb-931c-a4c8dfd9fa07.png)
+ 
+  
  # Query 15
- I.
- II.
+ I.This query is shows you on how to select all customers that are not located in (Melbourne, Perth, Gold Coast).
+ II. identify all customers are not belong in there places that mention from table.  
  III.
+ SELECT * FROM customer WHERE address NOT IN ('Melbourne', 'Perth','Gold Coast' )
+ ![image(https://user-images.githubusercontent.com/73158407/103251542-4fc05b00-4936-11eb-831b-32c0c07e5b1c.png)
+
 
 
  # Query 16
- I.
- II.
+ I.This query is shows you on how to matches customers that are from the same address.
+ II.It's important because it's help to find gmmatches customers address from table.
  III.
+ SELECT A.Name AS name1, B.name AS name2, A.address FROM customer A, customer B WHERE A.cid <> B.cid AND A.address = B.address ORDER BY A.address
+ ![image(https://user-images.githubusercontent.com/73158407/103252141-b9d9ff80-4938-11eb-841a-a94b087f9edd.png)
  
  
   # Query 17
@@ -162,15 +169,20 @@ III.
  III.
  
  
+ 
   # Query 18
  I.
  II.
  III.
  
+ 
+ 
   # Query 19
  I.
  II.
  III.
+ 
+ 
  
   # Query 20
  I.
