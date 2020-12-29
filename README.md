@@ -127,15 +127,15 @@ Store a start data, an end data, and the text to the contact.
  I. This query is shows you on how to find the highest salary from waiter.                                                       
  II.It's important because it's help to finds the  highest salary from waiter.                                                                         
  III.
-  SELECT MAX(salary) AS HighestSalary FROM waiter                                                                     
+ SELECT MAX(salary) AS HighestSalary FROM waiter                                                                     
     ![image(https://user-images.githubusercontent.com/73158407/103215503-c460ae80-48d0-11eb-8b36-ed89460070d5.png)
   
   
  # Query 13
 I.This query is shows you on how to find lists the number of customers in each address.                                   
-II. It's important because it's help to identify the number of customers in each address.                               
+II. It's important because it's help to identify the number of customers in each address.                                                                                 
 III.                                
- SELECT COUNT(cid), address FROM customer GROUP BY address                                                  
+SELECT COUNT(cid), address FROM customer GROUP BY address                                                  
 ![image(https://user-images.githubusercontent.com/73158407/103216109-7482e700-48d2-11eb-8252-81c39cece469.png)
 
 
@@ -176,7 +176,7 @@ III.
  I.This query is shows you on how to remove duplicate salary from waiter table                                 
  II.It's important because it's help to remove duplicates salary data.                                      
  III.
-  SELECT DISTINCT salary FROM waiter ORDER BY salary DESC                                                           
+ SELECT DISTINCT salary FROM waiter ORDER BY salary DESC                                                           
   ![image(https://user-images.githubusercontent.com/73158407/103258170-51e3e300-4951-11eb-885a-0d73222a4d5c.png)
    
    As you see we have duplicate salary data e.g., 400 because two or more employees have the same salary.                   
